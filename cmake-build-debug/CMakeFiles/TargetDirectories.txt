@@ -1,0 +1,3 @@
+/mnt/c/Users/ilyas/CLionProjects/AugmentImages/cmake-build-debug/CMakeFiles/AugmentImages.dir
+/mnt/c/Users/ilyas/CLionProjects/AugmentImages/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ilyas/CLionProjects/AugmentImages/cmake-build-debug/CMakeFiles/rebuild_cache.dir
