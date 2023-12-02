@@ -83,30 +83,46 @@ CMakeFiles/AugmentImages.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AugmentImages.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/ilyas/CLionProjects/AugmentImages/main.cpp -o CMakeFiles/AugmentImages.dir/main.cpp.s
 
-CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o: CMakeFiles/AugmentImages.dir/flags.make
-CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o: ../lib/src/ProcessImage.cpp
-CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o: CMakeFiles/AugmentImages.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/ilyas/CLionProjects/AugmentImages/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o -MF CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o.d -o CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o -c /mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/ProcessImage.cpp
+CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o: CMakeFiles/AugmentImages.dir/flags.make
+CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o: ../lib/src/AugmentImages.cpp
+CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o: CMakeFiles/AugmentImages.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/ilyas/CLionProjects/AugmentImages/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o -MF CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o.d -o CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o -c /mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/AugmentImages.cpp
 
-CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/ProcessImage.cpp > CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.i
+CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/AugmentImages.cpp > CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.i
 
-CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/ProcessImage.cpp -o CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.s
+CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/AugmentImages.cpp -o CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.s
+
+CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o: CMakeFiles/AugmentImages.dir/flags.make
+CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o: ../lib/src/ImageProcessor.cpp
+CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o: CMakeFiles/AugmentImages.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/ilyas/CLionProjects/AugmentImages/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o -MF CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o.d -o CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o -c /mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/ImageProcessor.cpp
+
+CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/ImageProcessor.cpp > CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.i
+
+CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/ImageProcessor.cpp -o CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.s
 
 # Object files for target AugmentImages
 AugmentImages_OBJECTS = \
 "CMakeFiles/AugmentImages.dir/main.cpp.o" \
-"CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o"
+"CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o" \
+"CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o"
 
 # External object files for target AugmentImages
 AugmentImages_EXTERNAL_OBJECTS =
 
 AugmentImages: CMakeFiles/AugmentImages.dir/main.cpp.o
-AugmentImages: CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o
+AugmentImages: CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o
+AugmentImages: CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o
 AugmentImages: CMakeFiles/AugmentImages.dir/build.make
 AugmentImages: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 AugmentImages: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
@@ -163,7 +179,7 @@ AugmentImages: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
 AugmentImages: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 AugmentImages: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 AugmentImages: CMakeFiles/AugmentImages.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/ilyas/CLionProjects/AugmentImages/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AugmentImages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/ilyas/CLionProjects/AugmentImages/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable AugmentImages"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AugmentImages.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

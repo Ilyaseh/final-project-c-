@@ -10,8 +10,11 @@ find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS} lib/include)
 
 # Add executable
-add_executable(AugmentImages main.cpp lib/src/ProcessImage.cpp
-        lib/include/ProcessImage.h)
+add_executable(AugmentImages main.cpp lib/src/AugmentImages.cpp
+        lib/include/AugmentImages.h
+        lib/src/ImageProcessor.cpp
+        lib/include/ImageProcessor.h
+        lib/include/ImageProcessor.h)
 
 # Link libraries
 target_link_libraries(AugmentImages ${OpenCV_LIBS})

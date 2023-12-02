@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "AugmentImages"
   "AugmentImages.pdb"
-  "CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o"
-  "CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o.d"
+  "CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o"
+  "CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o.d"
+  "CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o"
+  "CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o.d"
   "CMakeFiles/AugmentImages.dir/main.cpp.o"
   "CMakeFiles/AugmentImages.dir/main.cpp.o.d"
 )

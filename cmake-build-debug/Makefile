@@ -129,29 +129,53 @@ AugmentImages/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AugmentImages.dir/build.make CMakeFiles/AugmentImages.dir/build
 .PHONY : AugmentImages/fast
 
-lib/src/ProcessImage.o: lib/src/ProcessImage.cpp.o
-.PHONY : lib/src/ProcessImage.o
+lib/src/AugmentImages.o: lib/src/AugmentImages.cpp.o
+.PHONY : lib/src/AugmentImages.o
 
 # target to build an object file
-lib/src/ProcessImage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AugmentImages.dir/build.make CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.o
-.PHONY : lib/src/ProcessImage.cpp.o
+lib/src/AugmentImages.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AugmentImages.dir/build.make CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.o
+.PHONY : lib/src/AugmentImages.cpp.o
 
-lib/src/ProcessImage.i: lib/src/ProcessImage.cpp.i
-.PHONY : lib/src/ProcessImage.i
+lib/src/AugmentImages.i: lib/src/AugmentImages.cpp.i
+.PHONY : lib/src/AugmentImages.i
 
 # target to preprocess a source file
-lib/src/ProcessImage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AugmentImages.dir/build.make CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.i
-.PHONY : lib/src/ProcessImage.cpp.i
+lib/src/AugmentImages.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AugmentImages.dir/build.make CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.i
+.PHONY : lib/src/AugmentImages.cpp.i
 
-lib/src/ProcessImage.s: lib/src/ProcessImage.cpp.s
-.PHONY : lib/src/ProcessImage.s
+lib/src/AugmentImages.s: lib/src/AugmentImages.cpp.s
+.PHONY : lib/src/AugmentImages.s
 
 # target to generate assembly for a file
-lib/src/ProcessImage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AugmentImages.dir/build.make CMakeFiles/AugmentImages.dir/lib/src/ProcessImage.cpp.s
-.PHONY : lib/src/ProcessImage.cpp.s
+lib/src/AugmentImages.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AugmentImages.dir/build.make CMakeFiles/AugmentImages.dir/lib/src/AugmentImages.cpp.s
+.PHONY : lib/src/AugmentImages.cpp.s
+
+lib/src/ImageProcessor.o: lib/src/ImageProcessor.cpp.o
+.PHONY : lib/src/ImageProcessor.o
+
+# target to build an object file
+lib/src/ImageProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AugmentImages.dir/build.make CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.o
+.PHONY : lib/src/ImageProcessor.cpp.o
+
+lib/src/ImageProcessor.i: lib/src/ImageProcessor.cpp.i
+.PHONY : lib/src/ImageProcessor.i
+
+# target to preprocess a source file
+lib/src/ImageProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AugmentImages.dir/build.make CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.i
+.PHONY : lib/src/ImageProcessor.cpp.i
+
+lib/src/ImageProcessor.s: lib/src/ImageProcessor.cpp.s
+.PHONY : lib/src/ImageProcessor.s
+
+# target to generate assembly for a file
+lib/src/ImageProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AugmentImages.dir/build.make CMakeFiles/AugmentImages.dir/lib/src/ImageProcessor.cpp.s
+.PHONY : lib/src/ImageProcessor.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AugmentImages"
-	@echo "... lib/src/ProcessImage.o"
-	@echo "... lib/src/ProcessImage.i"
-	@echo "... lib/src/ProcessImage.s"
+	@echo "... lib/src/AugmentImages.o"
+	@echo "... lib/src/AugmentImages.i"
+	@echo "... lib/src/AugmentImages.s"
+	@echo "... lib/src/ImageProcessor.o"
+	@echo "... lib/src/ImageProcessor.i"
+	@echo "... lib/src/ImageProcessor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

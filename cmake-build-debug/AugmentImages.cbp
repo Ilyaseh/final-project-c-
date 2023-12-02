@@ -86,10 +86,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/include/ProcessImage.h">
+		<Unit filename="/mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/include/AugmentImages.h">
 			<Option target="AugmentImages"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/ProcessImage.cpp">
+		<Unit filename="/mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/include/ImageProcessor.h">
+			<Option target="AugmentImages"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/AugmentImages.cpp">
+			<Option target="AugmentImages"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ilyas/CLionProjects/AugmentImages/lib/src/ImageProcessor.cpp">
 			<Option target="AugmentImages"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/ilyas/CLionProjects/AugmentImages/main.cpp">

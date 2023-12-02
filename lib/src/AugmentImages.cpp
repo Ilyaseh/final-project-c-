@@ -1,10 +1,10 @@
-#include "ProcessImage.h"
+#include "AugmentImages.h"
 #include <iostream>
 #include <opencv2/opencv.hpp>
 #include <random>
 
 // Main function to process and save the image
-void ProcessImage::processAndSaveImage(const std::string& inputPath, const std::string& outputPath) {
+void AugmentImages::processAndSaveImage(const std::string& inputPath, const std::string& outputPath) {
     cv::Mat image = cv::imread(inputPath);
     if (image.empty()) {
         std::cerr << "Could not read the image at " << inputPath << std::endl;
@@ -53,7 +53,7 @@ void ProcessImage::processAndSaveImage(const std::string& inputPath, const std::
 }
 
 // Applies random cropping to the image
-cv::Mat ProcessImage::applyRandomCropping(const cv::Mat& image) {
+cv::Mat AugmentImages::applyRandomCropping(const cv::Mat& image) {
     int cropWidth = image.cols / 2;
     int cropHeight = image.rows / 2;
 
@@ -68,21 +68,21 @@ cv::Mat ProcessImage::applyRandomCropping(const cv::Mat& image) {
 }
 
 // Applies scaling to the image
-cv::Mat ProcessImage::applyScaling(const cv::Mat& image) {
+cv::Mat AugmentImages::applyScaling(const cv::Mat& image) {
     cv::Mat scaledImage;
     cv::resize(image, scaledImage, cv::Size(), 2, 2);
     return scaledImage;
 }
 
 // Applies flipping to the image along the horizontal axis
-cv::Mat ProcessImage::applyFlipping(const cv::Mat& image) {
+cv::Mat AugmentImages::applyFlipping(const cv::Mat& image) {
     cv::Mat flippedImage;
     cv::flip(image, flippedImage, 1);
     return flippedImage;
 }
 
 // Applies Gaussian noise to the image
-cv::Mat ProcessImage::applyGaussianNoise(const cv::Mat& image) {
+cv::Mat AugmentImages::applyGaussianNoise(const cv::Mat& image) {
     cv::Mat noise(image.size(), image.type());
     cv::randn(noise, 0, 25);
     cv::Mat noisyImage;
@@ -91,7 +91,7 @@ cv::Mat ProcessImage::applyGaussianNoise(const cv::Mat& image) {
 }
 
 // Applies color jittering to the image
-cv::Mat ProcessImage::applyColorJittering(const cv::Mat& image) {
+cv::Mat AugmentImages::applyColorJittering(const cv::Mat& image) {
     cv::Mat jitteredImage = image.clone();
 
     // Adjust brightness and contrast randomly up to 50% higher
