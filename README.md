@@ -2,10 +2,11 @@
 Augmented CIFAR-10 dataset with OpenCV in C++, trained a CNN model in Python using Tensorflow, and used Frugally_Deep in C++ for predictions on new data.
 
 ## Developers:
-- Ilyas el Haroui; 
-Github Page: https://github.com/Ilyaseh
-- Alan Zhang; 
-Github page: https://github.com/alanZhang0813
+- Ilyas el Haroui
+  - GitHub Page: [https://github.com/Ilyaseh](https://github.com/Ilyaseh)
+- Alan Zhang
+  - GitHub Page: [https://github.com/alanZhang0813](https://github.com/alanZhang0813)
+
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -14,7 +15,7 @@ Github page: https://github.com/alanZhang0813
    
 ## Introduction <a name="introduction"></a>
 This project demonstrates the integration of C++ and Python in creating and utilizing a Convolutional Neural Network (CNN) for image classification. 
-It involves data augmentation of the CIFAR-10 dataset using OpenCV in C++, building a CNN model in Python using Tensorflow, and employing the Frugally_Deep library in C++ for model inference.
+It involves data augmentation of the CIFAR-10 dataset using OpenCV in C++, building a CNN model in Python using Tensorflow, and employing the Frugally_Deep library in C++ for model predictions.
 
 ## Workflow <a name="workflow"></a>
 1. **Data Augmentation with OpenCV in C++**: 
